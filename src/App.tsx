@@ -1,26 +1,37 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import 'App.css';
+import Header from 'components/ui/header/Header';
 
-function App() {
+const App: React.FC =(data) =>
+{
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='container mx-auto' >
+      <Header />
     </div>
   );
-}
+};
+
+// const App: React.FC =(data) =>
+// {
+//   const appStyle = {
+//     fontSize: '12px' ,
+//     color: '#00ff00',
+//   };
+
+//   return (
+//     <div style={appStyle} >
+//       <h1>data</h1>
+//     </div>
+//   );
+// };
+// function App() {
+//   return (
+//     <div className="container mx-auto">
+//       <h1 className="text-center text-3xl font-bold underline">
+//         hi
+//     </h1>
+//     </div>
+//   );
+// }
 
 export default App;
