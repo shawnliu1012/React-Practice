@@ -1,13 +1,16 @@
 import React from 'react';
 import 'App.css';
 import Header from 'components/ui/header';
+import Footer from 'components/ui/footer';
 
 const App: React.FC =(data) =>
 {
   return (
     // 使用w-screen實現container-fluid效果
+    // https://github.com/tailwindlabs/discuss/issues/41
     <div className='w-screen' >
       <Header />
+      <Footer />
     </div>
   );
 };
