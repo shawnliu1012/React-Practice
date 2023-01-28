@@ -6,28 +6,28 @@ import 'App.css';
 const Footer = () => {
     return (
         <div className="bg-gray-200 flex justify-between">
-        <div className="">
+        <div className="mx-11 my-3.5">
             <div className="">
-                <div className="footer-title">社群</div>
-                <a className="text-blue-500" href="">Facebook</a>
-                <a className="text-blue-500" href="">Instagram</a>
-                <a className="text-blue-500" href="">Twitter</a>
+                <div className="">社群</div>
+                <a className="text-blue-500" href="">Facebook </a>
+                <a className="text-blue-500" href="">Instagram </a>
+                <a className="text-blue-500" href="">Twitter </a>
             </div>
             <div className="">
-                <div className="footer-title">幫助</div>
-                <a className="text-blue-500" href="">常見問答</a>
-                <a className="text-blue-500" href="">使用條款</a>
-                <a className="text-blue-500" href="">隱私權政策</a>
+                <div className="">幫助</div>
+                <a className="text-blue-500" href="">常見問答 </a>
+                <a className="text-blue-500" href="">使用條款 </a>
+                <a className="text-blue-500" href="">隱私權政策 </a>
             </div>
             <div className="">
-                <div className="footer-title">關於</div>
-                <a className="text-blue-500" href="">關於我們</a>
-                <a className="text-blue-500" href="">商標資源</a>
+                <div className="">關於</div>
+                <a className="text-blue-500" href="">關於我們 </a>
+                <a className="text-blue-500" href="">商標資源 </a>
                 <div className="trademark">©sunggang</div>
             </div>
         </div>
         <div className="">
-            <button className="">
+            <button className="mx-11 my-3.5">
                 <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor"
                     className="bi bi-arrow-up-circle-fill" viewBox="0 0 16 16">
                     <path
