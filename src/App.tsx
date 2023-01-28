@@ -1,6 +1,6 @@
 import React from 'react';
 import 'App.css';
-import Header from 'components/ui/header/Header';
+import Header from 'components/ui/header';
 
 const App: React.FC =(data) =>
 {
