@@ -5,7 +5,8 @@ import Header from 'components/ui/header';
 const App: React.FC =(data) =>
 {
   return (
-    <div className='container mx-auto' >
+    // 使用w-screen實現container-fluid效果
+    <div className='w-screen' >
       <Header />
     </div>
   );
