@@ -2,6 +2,7 @@ import React from 'react';
 import 'App.css';
 import Header from 'components/ui/header';
 import Footer from 'components/ui/footer';
+import Main from 'components/ui/main';
 
 const App: React.FC =(data) =>
 {
@@ -10,6 +11,7 @@ const App: React.FC =(data) =>
     // https://github.com/tailwindlabs/discuss/issues/41
     <div className='w-screen' >
       <Header />
+      <Main />
       <Footer />
     </div>
   );
